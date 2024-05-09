@@ -7,9 +7,14 @@ def hae_saa(kaupunki):
     data = vastaus.json()
     return data
 
-def tarkista_pilvisyys(säädata):
-    pilvisyys = säädata["weather"][0]["description"]
-    return pilvisyys
+def tarkista_sää(säädata):
+    sääkuvaus = säädata["weather"][0]["description"]
+    if "rain" in sääkuvaus:
+        return "Sataa"
+    elif "clear" in sääkuvaus:
+        return "Poutaa"
+    else:
+        return "Säätila ei ole selvillä"
 
 def main():
     kaupunki = input("Syötä kaupungin nimi: ")
@@ -19,13 +24,15 @@ def main():
         lämpötila = sää["main"]["temp"]
         print(f"Sää kaupungissa {kaupunki}: {lämpötila}°C")
 
-        pilvisyys = tarkista_pilvisyys(sää)
-        print(f"Pilvisyys: {pilvisyys}")
+        säätila = tarkista_sää(sää)
+        print(f"Sää: {säätila}")
 
-        if lämpötila >= 10:
-            print("Kannattaa matkustaa!")
+        if "sateista" in säätila:
+            print("On sateista. Ehkä kannattaa odottaa vähän parempaa säätä ennen matkustamista.")
+        elif "poutaista" in säätila:
+            print("On poutaista. Kannattaa matkustaa kaupunkiin!")
         else:
-            print("Ehkä kannattaa odottaa vähän parempaa säätä.")
+            print("Säätila ei ole selvillä.")
 
     else:
         print("Kaupunkia ei löytynyt. Yritä uudestaan.")
