@@ -8,7 +8,7 @@ def get_weather(city, api_key):
 
 def main():
     city = input("Syötä kaupungin nimi: ")
-    api_key = "TÄHÄN_API_AVAIN"
+    api_key = "a5f258ebce62bab18e7ea5967a2ea1f3"
     weather_data = get_weather(city, api_key)
 
     if weather_data["cod"] == 200:
