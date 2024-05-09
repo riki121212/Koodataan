@@ -1,6 +1,8 @@
 # Sää sovellus
 
 
-#mitä se tekee
+mistä ohjelmassa on kysymys
 
-#miten aiotte sen toteuttaa
+mitä se tekee
+
+miten aiotte sen toteuttaa
