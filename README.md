@@ -1,4 +1,4 @@
-# mistä ohjelmassa on kysymys
+# Sää sovellus
 
 
 #mitä se tekee
