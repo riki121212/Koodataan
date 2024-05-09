@@ -1,7 +1,7 @@
 # Sääsovellus
 
 
-<h2>mistä ohjelmassa on kysymys? </h2>
+<h3>mistä ohjelmassa on kysymys? </h3>
 
 Tarkoituksena on tehdä sääsovellus, joka kertoo kaupungin sään ja kannataako sinne mennä matkalle.
 
