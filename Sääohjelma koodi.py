@@ -1,11 +1,15 @@
 import requests
 
+# Hakee säätiedot OpenWeatherMap API:sta käyttäjän syöttämän kaupungin perusteella.
+
 def hae_saa(kaupunki):
     api_avain = "a5f258ebce62bab18e7ea5967a2ea1f3"
     url = f"http://api.openweathermap.org/data/2.5/weather?q={kaupunki}&appid={api_avain}&units=metric&lang=fi"
     vastaus = requests.get(url)
     data = vastaus.json()
     return data
+
+# Kerää säätiedot ja muodostaa ne meidän haluamalla tavalla. 
 
 def tarkista_sää(säädata):
     sääkuvaus = säädata["weather"][0]["description"]
@@ -21,6 +25,8 @@ def tarkista_sää(säädata):
     Ilmankosteus: {kosteus}%
     """
     return säätila
+
+# Antaa matkustussuosituksen säätietojen perusteella.
 
 def matkustus_suositus(säädata):
     sääkuvaus = säädata["weather"][0]["main"].lower()
@@ -38,6 +44,8 @@ def matkustus_suositus(säädata):
         return "On viileä sää. Pidä lämpimät vaatteet mukana ja nauti matkastasi!"
     else:
         return "Säätila ei ole selvillä."
+
+# Pääohjelma, joka pyytää käyttäjältä kaupungin nimen ja näyttää säätiedot ja matkustussuosituksen. 
 
 def main():
     while True:
