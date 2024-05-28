@@ -1,4 +1,4 @@
-# Sääsovellus
+# Sääohjelma
 
 
 <h3>Mistä ohjelmassa on kysymys? </h3>
@@ -27,7 +27,7 @@ Aijomme toteuttaa sen python koodilla ja open source säätiedotus API avaimella
 
 ----------------------------------------------------------------------------------------------------
 
-<h3>Toimintalogiikka vuokaaviona </h3>
+<h3>Toimintalogiikka vuokaavi </h3>
 
 ![What is this](Kaavio.jpg)
 
