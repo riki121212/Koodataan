@@ -27,4 +27,5 @@ Aijomme toteuttaa sen python koodilla ja open source säätiedotus API avaimella
 
 ----------------------------------------------------------------------------------------------------
 
+![What is this](Kaavio.jpg)
 ![alt text](https://https://github.com/riki121212/Koodataan/blob/main/Kaavio.jpg?raw=true)
