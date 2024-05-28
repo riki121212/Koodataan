@@ -7,7 +7,7 @@ Tarkoituksena on tehdä sääsovellus, joka kertoo kaupungin sään ja kannataak
 
 <h3>Mitä se tekee? </h3>
 
-Näyttää kaupungin sään sekä kertoo kannataako kaupunkiin matkustaa.
+Kertoo kaupungin sään ja kannataako kaupunkiin matkustaa.
 
 <h3>Miten aiotte sen toteuttaa? </h3>
 
