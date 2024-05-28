@@ -31,3 +31,8 @@ Aijomme toteuttaa sen python koodilla ja open source säätiedotus API avaimella
 
 ![What is this](Kaavio.jpg)
 
+----------------------------------------------------------------------------------------------------
+
+<h3>Demo ohjelmasta </h3>
+
+<link>https://youtu.be/E8aR07q0nHc?si=1d1HzVArYfoSeubr</link>
