@@ -27,7 +27,7 @@ Aijomme toteuttaa sen python koodilla ja open source säätiedotus API avaimella
 
 ----------------------------------------------------------------------------------------------------
 
-<h3>Toimintalogiikka vuokaavi </h3>
+<h3>Toimintalogiikka vuokaavio </h3>
 
 ![What is this](Kaavio.jpg)
 
