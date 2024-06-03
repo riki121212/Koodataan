@@ -3,7 +3,7 @@
 
 <h3>Mistä ohjelmassa on kysymys? </h3>
 
-Ohjelma hakee ja kertoo OpenWeatherMap sivun API:n avulla
+Ohjelma hakee ja kertoo sään OpenWeatherMap sivun API:n avulla
 käyttäjän syöttämän kaupungin perusteella. Se tarjoaa myös matkustussuosituksen näiden säätietojen perusteella.
 
 <h3>Mitä se tekee? </h3>
