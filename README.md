@@ -12,7 +12,8 @@ Kysyy käyttäjältä kaupungin nimen, jonka jälkeen ohjelma hakee säätiedot 
 
 <h3>Miten aiotte sen toteuttaa? </h3>
 
-Aijomme toteuttaa sen python koodilla ja open source säätiedotus API avaimella.
+Ohjelman toteutus tapahtuu käyttämällä Python-ohjelmointikieltä ja hyödyntämällä OpenWeatherMapin tarjoamaa API
+säätietojen hakuun.
 
 ----------------------------------------------------------------------------------------------------
 
