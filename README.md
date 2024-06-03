@@ -19,13 +19,25 @@ säätietojen hakuun.
 
 <h3>Miten käyttää/käynnistää? </h3>
 
-1. Lataa "Sääohjelma koodi.py" tietokoneelle
+1. Lataa "Sääohjelma koodi.py" -tiedosto haluamaasi sijaintiin tietokoneellasi.
 
-2. Paina "Windows+R" avataksesi "Suorita"-ruudun. Kirjoita "cmd" ja napsauta sitten "OK" avataksesi tavallisen komentokehotteen. Vaihtoehtoisesti voit myös kirjoittaa "powershell", joka avaa Windows PowerShellin.
+2. Avaa komentokehote tai PowerShell:
+Paina "Windows+R" avataksesi "Suorita"-ruudun. Kirjoita sitten "cmd" tai "powershell" ja napsauta "OK" avataksesi komentokehotteen tai PowerShellin.
 
-3. Jotta voit avata tiedosto cmd:ssä tai PowerShellissä sinun pitää siirtyä sen hakemistoon "cd"-komennolla ja kirjoittaa tiedoston nimi komentokehotteeseen. Esimerksiksi: "cd C:\Users\käyttäjänimi\Downloads" ja sen jälkeen kirjoittaa komento "python Sääohjelma koodi.py"
+3. Siirry tiedoston hakemistoon:
+Käytä "cd"-komennolla siirtyäksesi kansioon, jossa "Sääohjelma koodi.py" -tiedosto sijaitsee. Esimerkiksi, jos tiedosto on latautunut "Lataukset" -kansioon, kirjoita: cd C:\Users\käyttäjänimi\Downloads
 
-4. Nyt voit kirjoittaa kaupungin nimen ja ohjelma kertoo paikan sään, jonka jälkeen ohjelma kysyy haluatko matkasuosituksen, johon voi vastata "kyllä" tai "ei". Tämän jälkeen ohjelma kysyy haluatko uuden säätiedotuksen toisesta kaupungista, johon voi vastata "kyllä" tai "ei". Vastaamalla "kyllä" ohjelma aloittaa toiminnan alusta. Jos vastaa "ei" ohjelma lopettaa itsensä.
+4. Käynnistä ohjelma:
+Kun olet haluamassasi hakemistossa, kirjoita komento: python "Sääohjelma koodi.py". Tämä käynnistää ohjelman, ja se alkaa pyytämään kaupungin nimeä säätietojen hakemiseksi.
+
+5. Anna kaupungin nimi:
+Ohjelma pyytää sinua syöttämään kaupungin nimen. Kirjoita haluamasi kaupungin nimi ja paina Enter. Tämän jälkeen ohjelma näyttää kyseisen kaupungin säätiedot.
+
+6. Valinnainen: Matkasuositus:
+Ohjelma kysyy haluatko matkasuosituksen. Vastaa "kyllä" saadaksesi suosituksen tai "ei" ohittaaksesi sen.
+
+7. Valinnainen: Uusi säätiedotus:
+Ohjelma kysyy haluatko nähdä säätiedot toisesta kaupungista. Vastaa "kyllä" jatkaaksesi tai "ei" lopettaaksesi ohjelman.
 
 ----------------------------------------------------------------------------------------------------
 
