@@ -3,7 +3,8 @@
 
 <h3>Mistä ohjelmassa on kysymys? </h3>
 
-Tarkoituksena on tehdä sääsovellus, joka kertoo kaupungin sään ja kannataako sinne mennä matkalle.
+Ohjelmassa on hakee ja kertoo OpenWeatherMap sivun API:n avulla
+käyttäjän syöttämän kaupungin perusteella. Se tarjoaa myös matkustussuosituksen näiden säätietojen perusteella.
 
 <h3>Mitä se tekee? </h3>
 
