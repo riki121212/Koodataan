@@ -19,7 +19,7 @@ säätietojen hakuun.
 
 <h3>Miten käyttää/käynnistää? </h3>
 
-1. Lataa "Sääohjelma koodi.py" -tiedosto haluamaasi sijaintiin tietokoneellasi.
+1. <h5>Lataa "Sääohjelma koodi.py" -tiedosto haluamaasi sijaintiin tietokoneellasi. </h5>
 
 2. Avaa komentokehote tai PowerShell:
 Paina "Windows+R" avataksesi "Suorita"-ruudun. Kirjoita sitten "cmd" tai "powershell" ja napsauta "OK" avataksesi komentokehotteen tai PowerShellin.
