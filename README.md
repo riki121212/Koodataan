@@ -8,7 +8,7 @@ käyttäjän syöttämän kaupungin perusteella. Se tarjoaa myös matkustussuosi
 
 <h3>Mitä se tekee? </h3>
 
-Kertoo kaupungin sään ja kannataako kaupunkiin matkustaa.
+Kysyy käyttäjältä kaupungin nimen, jonka jälkeen ohjelma hakee säätiedot kyseisestä kaupungista ja muotoilee ne käyttäjälle valmiiksi määritetyllä tavalla. Lisäksi ohjelma antaa käyttäjälle mahdollisuuden pyytää matkustussuositusta säätietojen perusteella. 
 
 <h3>Miten aiotte sen toteuttaa? </h3>
 
