@@ -47,6 +47,8 @@ Ohjelma kysyy haluatko nähdä säätiedot toisesta kaupungista. Vastaa "kyllä"
 
 ----------------------------------------------------------------------------------------------------
 
+Ryhmän jäsenet: Riki Leppänen, Mika Venäläinen ja Niilo Pitkänen
+
 <h3>Demo ohjelmasta </h3>
 
 <link>https://youtu.be/E8aR07q0nHc?si=1d1HzVArYfoSeubr</link>
